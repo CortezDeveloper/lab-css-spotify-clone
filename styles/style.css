@@ -1,8 +1,125 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-style: #1A1A1A;
+}
+
+#logonavegador{
+width: 230px;
+height: 70px;  
+}
+
+header.fix {
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    padding: 0 1rem;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.musicforeveryone{
+    background-image: url("/lab-css-spotify-clone/images/landing.jpg");
+    background-position: center;
+    background-size: cover;
+    height: calc(90vh - 50px);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    position: relative;
+    padding-top: 200px;
+
+}
+
+.whatson{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-offset: 10px;
+    text-underline-offset: 8px;
+    text-underline-offset: 1rem;
+    color: #1A1A1A;
+
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.whatsoninside{
+    width: 70px;
+    height: 70px;
+    flex-direction: row;
+}
+
+.kanye{
+    background-color: #00B172;
+    padding-inline-start: 50px;
+    display: flex;
+}
+
+
+.kanyewest{
+    font-weight: bold;
+    text-align:start;
+    text-decoration: underline;
+    text-decoration-color: #FFF;
+    text-underline-offset: 10px;
+    text-underline-offset: 8px;
+    text-underline-offset: 1rem;
+    color: #FFF;
+    padding-top: 20px;
+    padding-inline-start: 10px;
+    flex-basis: 33.33%;
+
+}
+
+.logoblanco{
+    display:flex;
+    position:relative;
+    justify-content: space-between;
+    width: 100px;
+    height:100px;
+    padding-inline-start: 350px;
+    padding-bottom: 10%;
+
+}
+
+.app{
+    display:flex;
+    position: 100px ;
+    justify-content: space-between;
+    width: 200px;
+    height:400px;
+    padding-inline-end: 0%;
+    padding-bottom: 50%;
+}
