@@ -10,7 +10,7 @@ White: #FFF
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding:0;
 }
 
 body{
@@ -81,37 +81,10 @@ ul{
     flex-direction: row;
 }
 
-.kanye{
-    background-color: #00B172;
-    padding-inline-start: 50px;
-    display: flex;
-}
 
-
-.kanyewest{
-    font-weight: bold;
-    text-align:start;
-    text-decoration: underline;
-    text-decoration-color: #FFF;
-    text-underline-offset: 10px;
-    text-underline-offset: 8px;
-    text-underline-offset: 1rem;
-    color: #FFF;
-    padding-top: 20px;
-    padding-inline-start: 10px;
-    flex-basis: 33.33%;
-
-}
-
-.logoblanco{
-    display:flex;
-    position:relative;
-    justify-content: space-between;
+.logoblanco{ 
     width: 100px;
     height:100px;
-    padding-inline-start: 350px;
-    padding-bottom: 10%;
-
 }
 
 .app{
@@ -122,4 +95,50 @@ ul{
     height:400px;
     padding-inline-end: 0%;
     padding-bottom: 50%;
+}
+
+.section{
+    color:#FFF;
+    justify-content: center;
+}
+
+.sectionparraf{
+    color:#FFF;
+}
+
+.kanyewest{
+    font-weight: bold;
+    text-align:start;
+    text-decoration: underline;
+    text-decoration-color: #FFF;
+    color: #FFF;
+    padding-top: 20px;
+    padding-inline-start: 10px;
+    flex-basis: 33.33%;
+
+}
+
+.kanye{
+    background-color: #00B172;
+    padding-inline-start: 150px;
+    display: flex;
+    /* justify-content: center; */
+    height: 750px; 
+}
+
+.kanyeuno{
+    flex:1;
+    padding: 50px;
+}
+
+.kanyedos{
+    flex:1;
+    padding: 150px;
+  
+}
+
+.kanyetres{
+    flex:1;
+    padding: 100px;
+  
 }
